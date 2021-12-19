@@ -12,6 +12,7 @@ Riz_Button = [
         [
         Button.url("ᴏᴡɴᴇʀ", "https://t.me/TG_GoDfaTHeR")
         ]
+        ]
 
 
 @Riz.on(events.NewMessage(pattern="/start"))
