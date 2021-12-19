@@ -5,21 +5,21 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/0a8cec1011596c33154d8.jpg"
   
 
           
-rizoel = "✧ 𝑅𝐼𝑍𝑂𝐸𝐿 𝑋 𝑆𝑃𝐴𝑀 𝐼𝑍𝑍 𝐴𝐿𝐼𝑉𝐸𝐸 ✧\n\n"
+rizoel = "𝗧𝗘𝗔𝗠 𝗠𝗟𝗢 𝗛𝗘𝗥𝗘.\n\n"
 
-rizoel += f"┏━━━━━━━━━━━━━━━━━━━\n"
+rizoel += f"━━━━━━━━━━━━━━━━━━━\n"
 
-rizoel += f"┣➣ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
+rizoel += f" **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 
-rizoel += f"┣➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
+rizoel += f" **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
 
-rizoel += f"┣➣ **ʀɪᴢᴏᴇʟXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
+rizoel += f" **Bot ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
 
-rizoel += f"┗━━━━━━━━━━━━━━━━━━━\n\n"
+rizoel += f"━━━━━━━━━━━━━━━━━━━\n\n"
          
                                     
 @Riz.on(events.NewMessage(pattern=".alive"))
