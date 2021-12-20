@@ -22,7 +22,7 @@ rizoel += f" **Bot ᴠᴇʀsɪᴏɴ**  : `{ProfessorVersion}`\n"
 rizoel += f"━━━━━━━━━━━━━━━━━━━\n\n"
          
                                     
-@Riz.on(events.NewMessage(pattern=".alive"))
+@Riz.on(events.NewMessage(pattern=".robot"))
 async def alive(event):
     if event.sender_id in SUDO_USERS:
      await Riz.send_file(event.chat_id,
