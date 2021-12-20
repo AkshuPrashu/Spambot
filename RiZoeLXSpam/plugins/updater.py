@@ -13,14 +13,14 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/MrRizoel/Spambot"
-BOT_IS_UP_TO_DATE = "**The RiZoeL X Spam** is up-to-date sur."
+OFFICIAL_UPSTREAM_REPO = "https://github.com/AkshuPrashu/Spambot"
+BOT_IS_UP_TO_DATE = "**Professor Rockets🚀** is up-to-date bochlike."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
     "changelog: \n\n{changelog}\n"
-    "updating your RiZoeL X Spam ..."
+    "updating your Gun🔜 ..."
 )
-NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your RiZoeL X Spam...`"
+NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your Professor Rockets 🚀..`"
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
 DIFF_MARKER = "HEAD..{remote_name}/{branch_name}"
@@ -41,7 +41,7 @@ RESTARTING_APP = "re-starting heroku application"
 @Riz10.on(events.NewMessage(pattern=".update"))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "__U𝗽𝗱𝗮𝘁𝗶𝗻𝗴..... 𝗬𝗼𝘂𝗿 𝗥𝗶𝗭𝗼𝗲𝗟 𝗫 𝗦𝗽𝗮𝗺 𝗨𝘀𝗲𝗿𝗯𝗼𝘁𝘀__\n𝗧𝘆𝗽𝗲 .ping 𝗔𝗳𝘁𝗲𝗿 5𝗺𝗶𝗻𝘀 𝗧𝗼 𝗰𝗵𝗲𝗰𝗸 𝗜'𝗺 𝗼𝗻 !!"
+        text = "__U𝗽𝗱𝗮𝘁𝗶𝗻𝗴..... 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗼𝗿 𝗦𝗽𝗮𝗺 𝗨𝘀𝗲𝗿𝗯𝗼𝘁𝘀__\n𝗧𝘆𝗽𝗲 .ping 𝗔𝗳𝘁𝗲𝗿 5𝗺𝗶𝗻𝘀 𝗧𝗼 𝗰𝗵𝗲𝗰𝗸 𝗜'𝗺 𝗼𝗻 !!"
         await e.reply(text, parse_mode=None, link_preview=None)
 
 
