@@ -7,16 +7,26 @@ from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 from .. import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS
 
 
-@Riz.on(events.NewMessage(pattern=".uspam"))
-@Riz2.on(events.NewMessage(pattern=".uspam"))
-@Riz3.on(events.NewMessage(pattern=".uspam"))
-@Riz4.on(events.NewMessage(pattern=".uspam"))
-@Riz5.on(events.NewMessage(pattern=".uspam"))
-@Riz6.on(events.NewMessage(pattern=".uspam"))
-@Riz7.on(events.NewMessage(pattern=".uspam"))
-@Riz8.on(events.NewMessage(pattern=".uspam"))
-@Riz9.on(events.NewMessage(pattern=".uspam"))
-@Riz10.on(events.NewMessage(pattern=".uspam"))
+@Riz.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz2.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz3.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz4.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz5.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz6.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz7.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz8.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz9.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz10.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz11.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz12.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz13.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz14.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz15.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz16.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz17.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz18.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz19.on(events.NewMessage(pattern=r"\.uspam"))
+@Riz20.on(events.NewMessage(pattern=r"\.uspam"))
 async def unlimitedspam(event):
   if event.sender_id in SUDO_USERS:
     try:
