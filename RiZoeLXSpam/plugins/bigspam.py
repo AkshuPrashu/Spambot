@@ -19,19 +19,28 @@ import os
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from .. import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS
+from .. import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, Riz11, Riz12, Riz13, Riz14, Riz15, Riz16, Riz17, Riz18, Riz19, Riz20, SUDO_USERS
 
-
-@Riz.on(events.NewMessage(pattern=r"\.bigspam"))
-@Riz2.on(events.NewMessage(pattern=r"\.bigspam"))
-@Riz3.on(events.NewMessage(pattern=r"\.bigspam"))
-@Riz4.on(events.NewMessage(pattern=r"\.bigspam"))
-@Riz5.on(events.NewMessage(pattern=r"\.bigspam"))
-@Riz6.on(events.NewMessage(pattern=r"\.bigspam"))
-@Riz7.on(events.NewMessage(pattern=r"\.bigspam"))
-@Riz8.on(events.NewMessage(pattern=r"\.bigspam"))
-@Riz9.on(events.NewMessage(pattern=r"\.bigspam"))
-@Riz10.on(events.NewMessage(pattern=r"\.bigspam"))
+@Riz.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz2.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz3.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz4.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz5.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz6.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz7.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz8.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz9.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz10.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz11.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz12.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz13.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz14.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz15.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz16.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz17.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz18.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz19.on(events.NewMessage(pattern=r"\.bigbspam"))
+@Riz20.on(events.NewMessage(pattern=r"\.bigbspam"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
     if e.sender_id in SUDO_USERS:
