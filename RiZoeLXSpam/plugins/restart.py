@@ -5,19 +5,19 @@ import random
 import sys
 
 
-@Riz.on(events.NewMessage(pattern=".restart"))
-@Riz2.on(events.NewMessage(pattern=".restart"))
-@Riz3.on(events.NewMessage(pattern=".restart"))
-@Riz4.on(events.NewMessage(pattern=".restart"))
-@Riz5.on(events.NewMessage(pattern=".restart"))
-@Riz6.on(events.NewMessage(pattern=".restart"))
-@Riz7.on(events.NewMessage(pattern=".restart"))
-@Riz8.on(events.NewMessage(pattern=".restart"))
-@Riz9.on(events.NewMessage(pattern=".restart"))
-@Riz10.on(events.NewMessage(pattern=".restart"))
+@Riz.on(events.NewMessage(pattern=".reboot"))
+@Riz2.on(events.NewMessage(pattern=".reboot"))
+@Riz3.on(events.NewMessage(pattern=".reboot"))
+@Riz4.on(events.NewMessage(pattern=".reboot"))
+@Riz5.on(events.NewMessage(pattern=".reboot"))
+@Riz6.on(events.NewMessage(pattern=".reboot"))
+@Riz7.on(events.NewMessage(pattern=".reboot"))
+@Riz8.on(events.NewMessage(pattern=".reboot"))
+@Riz9.on(events.NewMessage(pattern=".reboot"))
+@Riz10.on(events.NewMessage(pattern=".reboot"))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "**Restarting Your MLO Spam Bots**.. Please Wait Until It Starts Again"
+        text = "**Rebooting Your MLO Spam Bots**.. Please Wait Until It Starts Again"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Riz.disconnect()
