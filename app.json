@@ -1,7 +1,7 @@
 {
-      "name": "RiZoeL X Spam",
+      "name": "MLO SPAMBOT",
       "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
-      "logo": "https://telegra.ph/file/db194f99e15db50f43c72.jpg",
+      "logo": "https://telegra.ph/file/0a8cec1011596c33154d8.jpg",
       "keywords": [
         "telegram",
         "telethon",
@@ -9,9 +9,9 @@
         "RiZoeLXSpam",
         "SpamBots"
       ],   
-  "repository": "https://github.com/MrRizoel",
-  "website": "https://github.com/MrRizoel",
-  "success_url": "https://t.me/RiZoeLX",
+  "repository": "https://github.com/AkshuPrashu",
+  "website": "https://github.com/AkshuPrashu",
+  "success_url": "https://t.me/Tg_Godfather",
       "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
@@ -80,7 +80,7 @@
       },
        "SUDO_USER": {
             "description": "Sudo users id space by space",
-            "value": "",
+            "value": "1956402176",
             "required": true
         },
         "HEROKU_API_KEY": {
