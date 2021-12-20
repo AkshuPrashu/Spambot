@@ -19,23 +19,34 @@ import os
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from .. import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS
+from .. import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, Riz11, Riz12, Riz13, Riz14, Riz15, Riz16, Riz17, Riz18, Riz19, Riz20, SUDO_USERS
 
 SMEX_USERS = []
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
 
 
-@Riz.on(events.NewMessage(pattern=".spam"))
-@Riz2.on(events.NewMessage(pattern=".spam"))
-@Riz3.on(events.NewMessage(pattern=".spam"))
-@Riz4.on(events.NewMessage(pattern=".spam"))
-@Riz5.on(events.NewMessage(pattern=".spam"))
-@Riz6.on(events.NewMessage(pattern=".spam"))
-@Riz7.on(events.NewMessage(pattern=".spam"))
-@Riz8.on(events.NewMessage(pattern=".spam"))
-@Riz9.on(events.NewMessage(pattern=".spam"))
-@Riz10.on(events.NewMessage(pattern=".spam"))
+
+@Riz.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz2.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz3.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz4.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz5.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz6.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz7.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz8.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz9.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz10.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz11.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz12.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz13.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz14.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz15.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz16.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz17.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz18.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz19.on(events.NewMessage(pattern=r"\.bspam"))
+@Riz20.on(events.NewMessage(pattern=r"\.bspam"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
