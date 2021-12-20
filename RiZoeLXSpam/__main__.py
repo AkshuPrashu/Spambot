@@ -8,7 +8,7 @@ from pathlib import Path
 from RiZoeLXSpam.utils import load_plugins
 import logging
 from telethon import events
-from . import Riz, Riz2, Riz3, Riz4, Riz5, Riz6, Riz7, Riz8, Riz9, Riz10
+from . import Riz, Riz2, Riz3, Riz4, Riz5, Riz6, Riz7, Riz8, Riz9, Riz10, Riz11, Riz12, Riz13, Riz14, Riz15, Riz16, Riz17, Riz18, Riz19, Riz20  
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
@@ -53,4 +53,34 @@ if __name__ == "__main__":
     Riz9.run_until_disconnected()
 
 if __name__ == "__main__":
-    Riz10.run_until_disconnected()    
+    Riz10.run_until_disconnected()  
+
+if __name__ == "__main__":
+    Riz11.run_until_disconnected()
+    
+if __name__ == "__main__":
+    Riz12.run_until_disconnected()
+
+if __name__ == "__main__":
+    Riz13.run_until_disconnected()
+    
+if __name__ == "__main__":
+    Riz14.run_until_disconnected()
+
+if __name__ == "__main__":
+    Riz15.run_until_disconnected()
+    
+if __name__ == "__main__":
+    Riz16.run_until_disconnected()
+    
+if __name__ == "__main__":
+    Riz17.run_until_disconnected()
+
+if __name__ == "__main__":
+    Riz18.run_until_disconnected()
+    
+if __name__ == "__main__":
+    Riz19.run_until_disconnected()
+
+if __name__ == "__main__":
+    Riz20.run_until_disconnected()  
