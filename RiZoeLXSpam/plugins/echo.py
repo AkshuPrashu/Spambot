@@ -6,9 +6,7 @@ import requests
 from telethon import events
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
-from RiZoeLXSpam import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS, OWNER_ID
-
-from RiZoeLXSpam import CMD_HNDLR as hl
+from RiZoeLXSpam import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS
 from RiZoeLXSpam.sql.echo_sql import addecho, get_all_echos, is_echo, remove_echo
 from resources.data import RiZoeLX
 
@@ -31,9 +29,6 @@ async def echo(event):
             user_id = reply_msg.sender_id
             if int(user_id) in RiZoeLX:
                     text = f"I can't echo @RiZoeLX's Owner"
-                    await event.reply(text, parse_mode=None, link_preview=None )
-            elif int(user_id) == OWNER_ID:
-                    text = f"This guy is a owner Of this Bots."
                     await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) in SUDO_USERS:
                     text = f"This guy is a sudo user."
