@@ -5,13 +5,12 @@
   <b>MLO SPAMBOTS</b>
 </h1>
 
-[![Forks](https://img.shields.io/github/forks/AkshuPrashu/Spambot?style=flat-square&color=red)](https://github.com/MrRizoel/Spambot/fork)
 [![Python](https://img.shields.io/badge/Python-v3.9.7-blue)](https://www.python.org/)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/AkshuPrashu/Spambot)   
 ----
  
 - [x] ☯︎ ғᴀsᴛ ᴀɴᴅ sᴛᴀʙʟᴇ ☯︎
-- [x] Deploy 10 Bots in One time 🔥
+- [x] Deploy 20 Bots in One time 🔥
 - [x] Deploy Using Bot Token 
 
 # Deploy on heroku
@@ -25,5 +24,4 @@
 
 # Credits
 * [RiZoeL Creator](https://github.com/MrRizoel)
-* [Ustad-op](https://github.com/Ustad-Op)
-* [Lonami](https://github.com/LonamiWebs/) for [Telethon.](https://github.com/LonamiWebs/Telethon)
+* [PROFESSOR](https://github.com/AkshuPrashu)
