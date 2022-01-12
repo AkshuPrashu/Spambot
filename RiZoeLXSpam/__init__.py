@@ -50,6 +50,8 @@ SUDO_USERS = list(map(int, getenv("SUDO_USER").split()))
 if 1517994352 not in SUDO_USERS:
     SUDO_USERS.append(1517994352)
 
+DB_URI = config("DATABASE_URL", None)
+
 # Tokens
 
 Riz = TelegramClient('Riz', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
