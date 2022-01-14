@@ -7,7 +7,7 @@ from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 from .. import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, Riz11, Riz12, Riz13, Riz14, Riz15, Riz16, Riz17, Riz18, Riz19, Riz20, SUDO_USERS
-from resources.data import RAID, REPLYRAID, RiZoeLX
+from resources.data import RAID, REPLYRAID, RiZoeLX, HBD
 
 que = {}
 
@@ -237,3 +237,67 @@ async def _(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
     
+  @Riz.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz2.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz3.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz4.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz5.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz6.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz7.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz8.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz9.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz10.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz11.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz12.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz13.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz14.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz15.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz16.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz17.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz18.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz19.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz20.on(events.NewMessage(pattern=r"\.hbd"))
+async def spam(e):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = **HAPPY BIRTHDAY**\n\nCommand:\n\n.hbd <count> <Username of User>\n\n.hbd <count> <reply to a User>\n\nCount must be a integer."
+    if e.sender_id in SUDO_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        RiZoeL = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        bitxh = await e.get_reply_message()
+        if len(RiZoeL) == 2:
+            user = str(RiZoeL[1])
+            a = await e.client.get_entity(user)
+            g = a.id
+            if int(g) == 1517994352:
+                text = f"Noob RiZoeL There I can't wish them"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:
+                c = a.first_name
+                username = f"[{c}](tg://user?id={g})"
+                counter = int(RiZoeL[0])
+                for _ in range(counter):
+                    msg = random.choice(HBD)
+                    caption = f"{username} \n\n {msg}"
+                    async with e.client.action(e.chat_id, "typing"):
+                        await e.client.send_message(e.chat_id, caption)
+                        await asyncio.sleep(0.3)
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            b = await e.client.get_entity(a.sender_id)
+            g = b.id
+            if int(g) == 1517994352:
+                text = f"Noob RiZoeL There I can't wish them"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:
+                c = b.first_name
+                counter = int(RiZoeL[0])
+                username = f"[{c}](tg://user?id={g})"
+                for _ in range(counter):
+                    msg = random.choice(HBD)
+                    caption = f"{username} \n\n {msg}"
+                    async with e.client.action(e.chat_id, "typing"):
+                        await e.client.send_message(e.chat_id, caption)
+                        await asyncio.sleep(0.3)
+        else:
+            await e.reply(usage)
+            
