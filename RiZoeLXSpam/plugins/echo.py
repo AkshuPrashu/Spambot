@@ -28,7 +28,7 @@ async def echo(event):
             reply_msg = await event.get_reply_message()
             user_id = reply_msg.sender_id
             if int(user_id) in RiZoeLX:
-                    text = Owner Hai ye Professor Mera Or Baap Tera No echo On him "
+                    text = f"I can't Echo On MLO's Owner"
                     await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) in SUDO_USERS:
                     text = f"This guy is a sudo user."
