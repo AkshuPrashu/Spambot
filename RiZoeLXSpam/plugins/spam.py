@@ -14,7 +14,7 @@ async def gifspam(e, smex):
         pass
 
 import asyncio
-import base64
+import random
 import os
 from telethon import events
 from telethon import functions, types
