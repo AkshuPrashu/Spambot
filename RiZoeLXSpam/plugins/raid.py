@@ -237,7 +237,7 @@ async def _(e):
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
     
-  @Riz.on(events.NewMessage(pattern=r"\.hbd"))
+@Riz.on(events.NewMessage(pattern=r"\.hbd"))
 @Riz2.on(events.NewMessage(pattern=r"\.hbd"))
 @Riz3.on(events.NewMessage(pattern=r"\.hbd"))
 @Riz4.on(events.NewMessage(pattern=r"\.hbd"))
@@ -269,7 +269,7 @@ async def spam(e):
             a = await e.client.get_entity(user)
             g = a.id
             if int(g) == 1517994352:
-                text = f"Noob RiZoeL There I can't wish them"
+                text = f"Noob"
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 c = a.first_name
@@ -286,7 +286,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) == 1517994352:
-                text = f"Noob RiZoeL There I can't wish them"
+                text = f"Noob"
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 c = b.first_name
