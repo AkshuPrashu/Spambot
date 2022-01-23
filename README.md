@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/0a8cec1011596c33154d8.jpg" alt="BOT-SPAM logo">
+  <img src="https://telegra.ph/file/695e7ba99010c1ebadcf4.jpg" alt="BOT-SPAM logo">
 </p>
 <h1 align="center">
   <b>MLO SPAMBOTS</b>
