@@ -268,7 +268,7 @@ async def spam(e):
             user = str(RiZoeL[1])
             a = await e.client.get_entity(user)
             g = a.id
-            if int(g) == 1517994352:
+            if int(g) == 1956402176:
                 text = f"Noob"
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
@@ -280,12 +280,12 @@ async def spam(e):
                     caption = f"{username} \n\n {msg}"
                     async with e.client.action(e.chat_id, "typing"):
                         await e.client.send_message(e.chat_id, caption)
-                        await asyncio.sleep(0.3)
+                        await asyncio.sleep(0.2)
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
-            if int(g) == 1517994352:
+            if int(g) == 1956402176:
                 text = f"Noob"
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
@@ -297,7 +297,7 @@ async def spam(e):
                     caption = f"{username} \n\n {msg}"
                     async with e.client.action(e.chat_id, "typing"):
                         await e.client.send_message(e.chat_id, caption)
-                        await asyncio.sleep(0.3)
+                        await asyncio.sleep(0.2)
         else:
             await e.reply(usage)
             
